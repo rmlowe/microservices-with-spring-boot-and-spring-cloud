@@ -1,8 +1,8 @@
 # RESTful Web Services
 
-Social Media Application
+## Social Media Application Resource Mappings
 
-User -> Posts
+### User -> Posts
 
 - Retrieve all Users      - GET  /users
 - Create a User           - POST /users
@@ -13,9 +13,9 @@ User -> Posts
 - Create a posts for a User - POST /users/{id}/posts
 - Retrieve details of a post - GET /users/{id}/posts/{post_id}
 
-
-
-
+## Error in the Log
+```
+Resolved exception caused by Handler execution:
 
 
 
