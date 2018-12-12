@@ -42,3 +42,111 @@ public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, j
 public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.Http
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### Internationalization
+
+##### Configuration
+- LocaleResolver
+   - Default Locale - Locale.US
+- ResourceBundleMessageSource
+
+##### Usage
+- Autowire MessageSource
+- @RequestHeader(value = "Accept-Language", required = false) Locale locale
+- messageSource.getMessage("helloWorld.message", null, locale)
+
+
+
+
+
+
