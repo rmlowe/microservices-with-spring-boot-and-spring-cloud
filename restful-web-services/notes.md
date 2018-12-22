@@ -292,3 +292,42 @@ public org.springframework.web.servlet.ModelAndView org.springframework.boot.aut
 - https://www.mnot.net/blog/2011/10/25/web_api_versioning_smackdown
 - http://urthen.github.io/2013/05/09/ways-to-version-your-api/
 - http://stackoverflow.com/questions/389169/best-practices-for-api-versioning
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### Table Structure
+
+create table user (
+id integer not null,
+birth_date timestamp,
+name varchar(255),
+primary key (id))
+
+
+
+
+
+
+
+
+
+
+
