@@ -2,6 +2,38 @@
 
 ## Social Media Application Resource Mappings
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### User -> Posts
 
 - Retrieve all Users      - GET  /users
@@ -16,10 +48,10 @@
 ## Error in the Log
 ```
 Resolved exception caused by Handler execution:
-
-
-
-
+org.springframework.http.converter.HttpMessageNotWritableException:
+No converter found for return value of type:
+class com.in28minutes.rest.webservices.restfulwebservices.HelloWorldBean
+```
 - This happened because there were no getters in HelloWorldBean class
 
 ## Questions to Answer
